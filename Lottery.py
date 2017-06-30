@@ -36,7 +36,7 @@ elif vote == "yes":
 
             # Ant
 
-            Ant = (input("Your Aunt has asked you for 100,000 dollars, will you give? (yes / no)\n"))
+            Ant = (input("Your second wife has asked you for 100,000 dollars, will you give? (yes / no)\n"))
 
             if Ant == "yes":
                 print("Oh no! The rest of your family is mad and one of your distant family members kills you due to jealously.")
@@ -63,3 +63,25 @@ elif vote == "yes":
                         print("Bad decision! He has scammed you and took all of your cash!")
                     elif FA == "no":
                         print("Good! You avoided getting scamming from the fake financial advisor.")
+
+                        # brother sues
+
+                        print("Your brother finds out about your second family and threatens to expose to your real family if you don't give him 2 million dollars.")
+                        brother = (input("Do you give your brother 2 million dollars? (yes / no)\n"))
+
+                        if brother == "yes":
+                            print("You make him promise not to tell anyone about the affair but he still tells your wife and she ends up murdering you, R.I.P. Homie")
+                        elif brother == "no":
+                            print("He exposes you but you change your name and move to another state therefore you're okay.")
+
+                            #death bed
+
+                            print("Your first wife finds you in another state and she shanks you a couple of times and now you're in the hospital laying on your death bed.")
+                            print("Your doctor says he could save your life if you go through heart transplant surgery the only catch is the heart is from the black market.")
+
+                            heart = (input("Do you go through the surgery? (yes / no)\n"))
+
+                            if heart == "yes":
+                                print("Looks like the heart was infected and infected the rest of your body R.I.P Homie")
+                            elif heart == "no":
+                                print("You needed that heart to live homie R.I.P")
