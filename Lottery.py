@@ -82,6 +82,6 @@ elif vote == "yes":
                             heart = (input("Do you go through the surgery? (yes / no)\n"))
 
                             if heart == "yes":
-                                print("Looks like the heart was infected and infected the rest of your body R.I.P Homie")
+                                print("Looks like the heart was infected and it infected the rest of your body R.I.P Homie")
                             elif heart == "no":
                                 print("You needed that heart to live homie R.I.P")
